@@ -3,6 +3,7 @@
 #include <linux/module.h>
 #include <linux/random.h>
 #include <linux/types.h>
+#include <linux/uaccess.h>
 
 #define MY_MAJOR_NUM	230
 #define READ_LENGTH	2
